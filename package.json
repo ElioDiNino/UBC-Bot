@@ -1,0 +1,24 @@
+{
+  "name": "ubc-discord-bot",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "discord.js-commando": "^0.12.3",
+    "dotenv": "^8.2.0",
+    "twemoji-parser": "^13.0.0",
+    "wokcommands": "^1.3.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.24.0"
+  }
+}
