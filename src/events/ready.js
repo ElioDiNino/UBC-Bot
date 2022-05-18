@@ -1,4 +1,5 @@
 const WOKCommands = require('wokcommands');
+const path = require('path')
 
 module.exports = {
 	name: 'ready',
@@ -7,7 +8,7 @@ module.exports = {
 		const guildID = '831210032895885343'
 
 	    new WOKCommands(client, {
-	        commandsDir: 'sCommands',
+	        commandsDir: path.join(__dirname, '../sCommands'),
 	        showWarns: false,
 	        //testServers: [guildID],
 	    })
