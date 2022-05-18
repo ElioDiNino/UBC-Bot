@@ -37,3 +37,9 @@ Overall, Discord bots are a great way to better manage servers as well as to mak
 #### Resources we found most helpful:
 - https://discordjs.guide/
 - https://discord.js.org/#/docs/main/stable/general/welcome
+
+## Running the bot
+1. Get your bot token from the Discord developer portal (https://discord.com/developers/applications)
+2. Run `echo DISCORD_TOKEN=Your_Token > .env`
+3. Run `npm install` to install dependencies
+4. Run `node ./src/index.js` and the bot should start up
