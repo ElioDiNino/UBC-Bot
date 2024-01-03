@@ -2,11 +2,11 @@
 This is an automation bot that helps Discord server owners organize and manage users. It has a variety of commands available and has been designed with future additions in mind. The prefix used in our example is `?` but can be customized to something different if desired.
 
 ### Code organization
-You can find the main code in [/src](src), with [index.js](src/index.js) being the main file and event handlers stored in [/src/events](src/events). Lastly you will find code for each of the commands in [/src/commands](src/commands) and code for the slash commands in [/src/sCommands](src/sCommands).
+You can find the main code in [`/src`](src), with [`index.js`](src/index.js) being the main file and event handlers stored in [`/src/events`](src/events). Lastly, you will find code for each of the commands in [`/src/commands`](src/commands) and code for the slash commands in [`/src/sCommands`](src/sCommands).
 
 ### What we're proud of
 Out of all the features, we are most proud of our `?help` command. Having struggled to get the bot to respond to the user in DMs for quite a while,
-we figured out the bug and are satisfied with the functionality and its ability to dynamically update to any commands that we add.
+we figured out the bug and are satisfied with the functionality and its ability to dynamically update with any commands that we add.
 
 ### What is Discord and what is a Discord bot?
 
